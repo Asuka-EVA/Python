@@ -261,7 +261,7 @@ print(set1)
 
 因为 set 是一个`无序不重复`元素集，因此，两个 set 可以做数学意义上的 union(并集), intersection(交集), difference(差集) 等操作。
 
-![image-20230712103719830](assets/03Dict 和 Set/image-20230712103719830.png)
+![image-20230712103719830](assets/03Dict和Set/image-20230712103719830.png)
 
 例子：
 
