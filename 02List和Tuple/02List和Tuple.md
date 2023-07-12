@@ -10,7 +10,7 @@ List （列表）是 Python 内置的一种数据类型。 它是一种有序的
 
 现在有一个团队要出去玩，要先报名。如果用我们之前学过的知识，那么就是用一个字符串变量把他们都记录起来。
 
-![image-20230712102816724](assets/02 List和Tuple/image-20230712102816724.png)
+![image-20230712102816724](assets/02List和Tuple/image-20230712102816724.png)
 
 但是这样太麻烦了，而且也不美观。
 
@@ -18,7 +18,7 @@ List （列表）是 Python 内置的一种数据类型。 它是一种有序的
 
 这时候就可以使用列表了。
 
-![image-20230712102836175](assets/02 List和Tuple/image-20230712102836175.png)
+![image-20230712102836175](assets/02List和Tuple/image-20230712102836175.png)
 
 就这样，一行代码就可以存放 N 多个名字了。
 
@@ -26,7 +26,7 @@ List （列表）是 Python 内置的一种数据类型。 它是一种有序的
 
 从上面的例子可以分析出，列表的格式是这样的。
 
-![image-20230712102855665](assets/02 List和Tuple/image-20230712102855665.png)
+![image-20230712102855665](assets/02List和Tuple/image-20230712102855665.png)
 
 其实列表就是用中括号 `[]` 括起来的数据，里面的每一个数据就叫做元素。每个元素之间使用逗号分隔。
 
@@ -42,11 +42,11 @@ list1=['两点水','twowter','liangdianshui',123]
 
 我们尝试把他打印出来，看看打印的结果是怎样的。
 
-![image-20230712102924702](assets/02 List和Tuple/image-20230712102924702.png)
+![image-20230712102924702](assets/02List和Tuple/image-20230712102924702.png)
 
 结果如下：
 
-![image-20230712102940349](assets/02 List和Tuple/image-20230712102940349.png)
+![image-20230712102940349](assets/02List和Tuple/image-20230712102940349.png)
 
 ## 3、如何访问List(列表)中的值
 
@@ -71,7 +71,7 @@ print(name[0:2])
 
 输出的结果：
 
-![image-20230712103004298](assets/02 List和Tuple/image-20230712103004298.png)
+![image-20230712103004298](assets/02List和Tuple/image-20230712103004298.png)
 
 可见，我们需要知道知道 `name` 这个列表中第三个报名的是谁？只需要用 `name[2]` 就可以了。
 
@@ -99,11 +99,11 @@ print(name[0:2])
 
 所以你可以尝试下下面的各种方式：
 
-![image-20230712103027691](assets/02 List和Tuple/image-20230712103027691.png)
+![image-20230712103027691](assets/02List和Tuple/image-20230712103027691.png)
 
 看看输出的结果：
 
-![image-20230712103045297](assets/02 List和Tuple/image-20230712103045297.png)
+![image-20230712103045297](assets/02List和Tuple/image-20230712103045297.png)
 
 根据输出的结果和上面讲到的知识，就很容易理解其中的一些用法了
 
@@ -130,7 +130,7 @@ print(name)
 
 输出的结果：
 
-![image-20230712103149208](assets/02 List和Tuple/image-20230712103149208.png)
+![image-20230712103149208](assets/02List和Tuple/image-20230712103149208.png)
 
 ## 5、怎么删除 List（列表） 里面的元素
 
@@ -152,7 +152,7 @@ print(name)
 
 输出的结果:
 
-![image-20230712103211430](assets/02 List和Tuple/image-20230712103211430.png)
+![image-20230712103211430](assets/02List和Tuple/image-20230712103211430.png)
 
 你看输出的结果，列表中已经没有了 `四点水` 这个数据了。证明已经删除成功了。
 
@@ -245,7 +245,7 @@ print('\n9.不同元素类型的list数据')
 print(newUser)
 ```
 
-![image-20230712103257746](assets/02 List和Tuple/image-20230712103257746.png)
+![image-20230712103257746](assets/02List和Tuple/image-20230712103257746.png)
 
 # 二、Tuple(元组)
 
@@ -294,7 +294,7 @@ tuple4=(123,)
 
 具体看下图 tuple4 和 tuple5 的输出值
 
-![image-20230712103348841](assets/02 List和Tuple/image-20230712103348841.png)
+![image-20230712103348841](assets/02List和Tuple/image-20230712103348841.png)
 
 ## 3、如何访问元组(tuple)
 
@@ -312,7 +312,7 @@ print(tuple2[0])
 
 输出的结果：
 
-![image-20230712103415136](assets/02 List和Tuple/image-20230712103415136.png)
+![image-20230712103415136](assets/02List和Tuple/image-20230712103415136.png)
 
 ## 4、修改元组(tuple)
 
@@ -343,7 +343,7 @@ print(tuple1)
 
 可以看到，两次输出的 tuple 值是变了的。我们看看 tuple1 的存储是怎样的。
 
-![image-20230712103448129](assets/02 List和Tuple/image-20230712103448129.png)
+![image-20230712103448129](assets/02List和Tuple/image-20230712103448129.png)
 
 可以看到，tuple1 有四个元素，最后一个元素是一个 List ，List 列表里有两个元素。
 
@@ -415,4 +415,4 @@ print(tuple(list1))
 
 输出的结果如下：
 
-![image-20230712103524340](assets/02 List和Tuple/image-20230712103524340.png)
+![image-20230712103524340](assets/02List和Tuple/image-20230712103524340.png)
